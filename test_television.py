@@ -48,7 +48,7 @@ class Test:
         assert self.tvl.__str__() == 'Power = True, Channel = 3, Volume = 0'
 
     def test_volume_up(self):
-        self.tvl.power()
+        self.tvl.power()    
         self.tvl.volume_up()
 
     def test_volume_down(self):
